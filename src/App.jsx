@@ -8,11 +8,8 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
+      {/* <Hero /> */}
       <Nosotros />
-      <ProductosContainer />
-
-      <Preguntas />
     </>
   );
 }
