@@ -12,7 +12,7 @@ const Header = () => {
   const [isOpen, setisOpen] = useState(false);
 
   return (
-    <header className="bg-purple-header shadow-md text-white w-full p-2 text-2xl flex items-center z-50 md:h-altura_navbar_md">
+    <header className="bg-purple-header shadow-md text-white w-full p-2 text-2xl flex items-center z-50 md:h-altura_navbar_md fixed">
       <div className="py-4 px-7 w-full h-full flex flex-col md:flex-row justify-between items-start md:items-center contenedor">
         <Logo />
 
