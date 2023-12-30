@@ -1,5 +1,5 @@
 import IconStar from "./IconStar";
-import { CheckCircleIcon } from "@heroicons/react/24/solid";
+// import { CheckCircleIcon } from "@heroicons/react/24/solid";
 import Wave1 from "../assets/waves/wave1.svg";
 import nosotrosImage from "../assets/nosotros.jpg";
 
