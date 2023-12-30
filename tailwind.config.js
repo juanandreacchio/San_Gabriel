@@ -29,7 +29,8 @@ export default {
           white_figma: '#FFF'
         },
         gray:{
-          gray_figma: 'rgba(0, 0, 0, 0.10)'
+          gray_figma: 'rgba(0, 0, 0, 0.10)',
+          light_gray: '#FBF7FF'
         }
       },
       borderRadius:{

@@ -14,7 +14,7 @@ const Hero = () => {
           className="w-auto"
           />
       </picture>
-      <p className="text-white mt-4 md:text-5xl font-bold">
+      <p className="text-white-white_figma mt-4 md:text-5xl font-bold">
         Fábrica de papel Higiénico
       </p>
           </div>
