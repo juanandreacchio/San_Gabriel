@@ -23,7 +23,13 @@ export default {
       colors:{
         purple:{
           header: '#413079',
-          titles: '#453852'
+          titles: '#453852',
+        },
+        white:{
+          white_figma: '#FFF'
+        },
+        gray:{
+          gray_figma: 'rgba(0, 0, 0, 0.10)'
         }
       },
       borderRadius:{
