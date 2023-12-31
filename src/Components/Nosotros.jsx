@@ -6,11 +6,11 @@ import nosotrosImage from "../assets/nosotros.jpg";
 const Nosotros = () => {
   return (
     <div className="bg-slate-200 p-4 relative flex flex-col  pb-[100px] md:pb-[20px] min-h-altura_pagina_md max-h-full font-manrope">
-      <div className="flex-col ml-14 my-14">
+      <div className="flex-col md:ml-14 md:my-14">
         <h2 className="text-5xl my-8 font-bold text-purple-titles">Nosotros</h2>
 
         <div className="flex flex-col md:flex-row  mx-auto justify-around my-8 w-full gap-40">
-          <div className="flex flex-col gap-8 items-start text-xl w-7/12">
+          <div className="flex flex-col gap-8 items-start text-md md:text-xl w-full md:w-7/12">
             <p className="">
               Hace veinte años, nació San Gabriel en Santa Rosa, Provincia de
               Mendoza, rindiendo homenaje a nuestro primogénito, Gabriel. Desde
@@ -31,7 +31,7 @@ const Nosotros = () => {
             </p>
             <p>Gracias por confiar en San Gabriel.</p>
           </div>
-          <picture className="w-5/12">
+          <picture className="w-5/12 hidden md:block">
           <img
             className="w-auto h-full rounded-cincuenta object-cover"
             src={nosotrosImage}
@@ -41,11 +41,11 @@ const Nosotros = () => {
         </div>
         <div className="text-base">
         <h2 className="text-5xl mt-8 font-bold text-purple-titles">¿Qué te garantizamos?</h2>
-        <p className="my-6 text-xl tracking-wider">
+        <p className="my-6 text-md md:text-xl tracking-wider">
           Queremos ser el socio estratégico de cada uno de nuestros clientes,
           ofreciendo la mejor alternativa adaptada a sus necesidades.
         </p>
-        <ul className="my-6 text-lg md:text-xl flex flex-col gap-5">
+        <ul className="my-6 text-md md:text-xl flex flex-col gap-5">
           <li className="flex items-center mb-4">
             <IconStar />
             Precios que se ajusten a tu negocio

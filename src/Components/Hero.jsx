@@ -7,14 +7,14 @@ const Hero = () => {
        bg-backHero1 text-center bg-center md:bg-top bg-no-repeat bg-cover font-manrope `}
     >
       <div className="flex flex-col w-screen justify-center">
-      <picture className="flex justify-center">
+      <picture className="flex justify-center px-5">
         <img
           src={namePrincipal}
           alt="imagen nombre san gabriel"
-          className=""
+          className="w-auto"
           />
       </picture>
-      <p className="text-white mt-4 md:text-5xl font-bold">
+      <p className="text-white-white_figma mt-4 md:text-5xl font-bold">
         Fábrica de papel Higiénico
       </p>
           </div>
