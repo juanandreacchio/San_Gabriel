@@ -38,6 +38,7 @@ const Header = () => {
         >
           {isOpen ? <XMarkIcon /> : <Bars3Icon />}
         </div>
+        <div></div>
       </div>
     </header>
   );
