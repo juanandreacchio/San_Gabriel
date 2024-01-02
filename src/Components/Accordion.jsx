@@ -1,12 +1,27 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
-const Accordion = (props) => {
-  const [item, setItem] = useState(props.datas);
+const Accordion = ({datas}) => {
+  const [item, setItem] = useState(datas);
 
   const handleToggleActive = () => {
     let newActive = item.active === 1 ? 0 : 1;
     setItem({ ...item, active: newActive });
   };
+
+  console.log(item.link);
+
+  const preguntaConLink = (respuesta, link = "") =>{
+    return link.length > 0 ?(
+      <div className="overflow-hidden max-h-0 duration-500 group-[.is-active]:max-h-[250px] text-sm text-black text-left">
+      {respuesta} <Link to={link}>{link}</Link>
+    </div>
+    )  : (
+      <div className="overflow-hidden max-h-0 duration-500 group-[.is-active]:max-h-[250px] text-sm text-black text-left">
+      {respuesta}
+    </div>
+    )
+  }
 
   return (
     <div
@@ -26,11 +41,8 @@ const Accordion = (props) => {
           {item.active === 1 ? "x" : "+"}
         </div>
       </div>
-      <div className="overflow-hidden max-h-0 duration-500 group-[.is-active]:max-h-[250px] text-sm text-black text-left">
-        {item.answer}
-      </div>
+      {preguntaConLink(item.answer, item.link)}
     </div>
   );
 };
 export default Accordion;
-
