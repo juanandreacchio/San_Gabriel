@@ -58,7 +58,7 @@ const Contacto = () => {
             className="lg:w-[250px] lg:h-[250px] rounded-3xl w-full"
           />
         </picture>
-        <p className="md:col-span-5 flex justify-between border-t-[1px] border-purple-titles py-10 text-sm text-purple-titles font-bold">
+        <p className="md:col-span-5 flex justify-between border-t-[1px] border-purple-titles py-10 text-sm text-purple-titles font-bold mt-16">
           <span>San Gabriel S.A</span>
           <span>Fabrica de papel higiénico</span>
         </p>
