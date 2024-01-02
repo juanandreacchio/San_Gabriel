@@ -14,7 +14,7 @@ const Header = () => {
   const [isOpen, setisOpen] = useState(false);
 
   return (
-    <header className="bg-purple-header shadow-md text-white w-full p-2 text-2xl flex items-center z-40 h-altura_navbar_md font-manrope fixed ">
+    <header className="bg-purple-header shadow-md text-white w-full p-2 text-2xl flex items-center z-40 h-altura_navbar_md font-manrope ">
       <div className="py-4 px-7 w-full h-full flex flex-col md:flex-row justify-between items-start md:items-center contenedor  ">
         <Link to="/">
           <Logo />
@@ -53,3 +53,4 @@ const Header = () => {
 };
 
 export default Header;
+
