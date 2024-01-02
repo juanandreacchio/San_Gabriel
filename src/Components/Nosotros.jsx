@@ -5,7 +5,7 @@ import nosotrosImage from "../assets/nosotros.jpg";
 
 const Nosotros = () => {
   return (
-    <div className="bg-slate-200 p-4  flex flex-col  pb-[100px] md:pb-[20px] min-h-altura_pagina_md max-h-full font-manrope relative pt-24">
+    <div className="bg-slate-200 p-4 relative flex flex-col  pb-[100px] md:pb-[20px] min-h-altura_pagina_md max-h-full font-manrope">
       <div className="flex-col md:ml-14 md:my-14">
         <h2 className="text-5xl my-8 font-bold text-purple-titles">Nosotros</h2>
 
@@ -32,48 +32,47 @@ const Nosotros = () => {
             <p>Gracias por confiar en San Gabriel.</p>
           </div>
           <picture className="w-5/12 hidden md:block">
-            <img
-              className="w-auto h-full rounded-cincuenta object-cover"
-              src={nosotrosImage}
-              alt="imagen nosotros pasta"
+          <img
+            className="w-auto h-full rounded-cincuenta object-cover"
+            src={nosotrosImage}
+            alt="imagen nosotros pasta"
             />
-          </picture>
+            </picture>
         </div>
         <div className="text-base">
-          <h2 className="text-5xl mt-8 font-bold text-purple-titles">
-            ¿Qué te garantizamos?
-          </h2>
-          <p className="my-6 text-md md:text-xl tracking-wider">
-            Queremos ser el socio estratégico de cada uno de nuestros clientes,
-            ofreciendo la mejor alternativa adaptada a sus necesidades.
-          </p>
-          <ul className="my-6 text-md md:text-xl flex flex-col gap-5">
-            <li className="flex items-center mb-4">
-              <IconStar />
-              Precios que se ajusten a tu negocio
-            </li>
-            <li className="flex items-center mb-4">
-              <IconStar />
-              Productos de calidad
-            </li>
-            <li className="flex items-center mb-4">
-              <IconStar />
-              Atención personalizada
-            </li>
-            <li className="flex items-center mb-4">
-              <IconStar />
-              Envíos a la puerta de tu comercio
-            </li>
-          </ul>
-        </div>
-        <img
-          className="absolute bottom-0 left-0 opacity-20"
-          src={Wave1}
-          alt="imagen fondo onda"
-        />
+        <h2 className="text-5xl mt-8 font-bold text-purple-titles">¿Qué te garantizamos?</h2>
+        <p className="my-6 text-md md:text-xl tracking-wider">
+          Queremos ser el socio estratégico de cada uno de nuestros clientes,
+          ofreciendo la mejor alternativa adaptada a sus necesidades.
+        </p>
+        <ul className="my-6 text-md md:text-xl flex flex-col gap-5">
+          <li className="flex items-center mb-4">
+            <IconStar />
+            Precios que se ajusten a tu negocio
+          </li>
+          <li className="flex items-center mb-4">
+            <IconStar />
+            Productos de Calidad
+          </li>
+          <li className="flex items-center mb-4">
+            <IconStar />
+            Atención Personalizada
+          </li>
+          <li className="flex items-center mb-4">
+            <IconStar />
+            Estamos en la puerta de tu comercio
+          </li>
+        </ul>
       </div>
+      <img
+        className="absolute bottom-0 left-0 opacity-20"
+        src={Wave1}
+        alt="imagen fondo onda"
+      />
+              </div>
     </div>
   );
 };
 
 export default Nosotros;
+
