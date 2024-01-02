@@ -7,10 +7,10 @@ import mapa from "/src/assets/mapa-ubicacion.png";
 
 const Contacto = () => {
   return (
-    <div className="flex justify-center items-center h-full  max-h-full font-manrope">
+    <div className="flex justify-center items-center h-full  max-h-full font-manrope pt-28">
       <div className="md:grid md:grid-cols-4 md:grid-rows-2 flex flex-col px-16 py-8">
         <div className="md:col-span-3">
-          <h3 className="text-purple-text text-3xl font-semibold mb-10">
+          <h3 className="text-purple-text text-2xl md:text-3xl font-semibold mb-10">
             Desde hace 20 años brindamos soluciones a miles de familias,
             empresas y emprendimientos, ofreciendo productos de primera calidad.
           </h3>
@@ -58,7 +58,7 @@ const Contacto = () => {
             className="lg:w-[250px] lg:h-[250px] rounded-3xl w-full"
           />
         </picture>
-        <p className="md:col-span-5 flex justify-between border-t-[1px] border-purple-titles py-10 text-sm text-purple-titles font-bold mt-10">
+        <p className="md:col-span-5 flex justify-between border-t-[1px] border-purple-titles py-10 text-sm text-purple-titles font-bold">
           <span>San Gabriel S.A</span>
           <span>Fabrica de papel higiénico</span>
         </p>

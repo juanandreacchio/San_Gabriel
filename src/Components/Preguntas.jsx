@@ -31,8 +31,8 @@ const Preguntas = () => {
     //   <div className="flex flex-col md:flex-row  mx-auto justify-around"></div>
     // </div>
 
-    <div className="flex flex-col w-full h-altura_pagina_md max-h-full px-6 md:px-16">
-      <h2 className="text-5xl md:text-3xl my-8 font-manrope text-purple-titles font-bold">
+    <div className="flex flex-col w-full h-altura_pagina_md max-h-full px-6 md:px-16 pt-28">
+      <h2 className="text-3xl md:text-4xl my-8 font-manrope text-purple-titles font-bold">
         Preguntas Frecuentes{" "}
       </h2>
       {/* <div className="flex flex-col md:flex-row  mx-auto justify-around"></div> */}
