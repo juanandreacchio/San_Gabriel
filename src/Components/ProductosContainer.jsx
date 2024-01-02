@@ -59,10 +59,10 @@ const ProductosContainer = () => {
   }, []);
 
   return (
-    <div className="bg-gray-light_gray h-auto pb-6 mb-4 font-manrope not-italic leading-none">
+    <div className="bg-gray-light_gray h-auto pb-6 mb-4 font-manrope not-italic leading-none  pt-28 ">
       <div className=" sm:wrapper p-5 md:w-[1440] md:pt-[46px] md:px-[80px] md:pb-[90px]  md:mx-[80px] ">
         <div className="flex flex-col gap-6 mb-[24px]">
-          <h2 className=" font-bold text-5xl md:text-[48px]">
+          <h2 className=" font-bold text-4xl md:text-5xl md:text-[48px]">
             Nuestros productos
           </h2>
           <p className=" text-base md:text-base font-normal leading-[25.888px]">
