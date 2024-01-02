@@ -48,7 +48,7 @@ const OtrosProductosContainer = () => {
   }, []);
 
   return (
-    <div className="bg-gray-light_gray ">
+    <div className="bg-gray-light_gray pt-28">
       <div className=" sm:wrapper p-5 md:w-[1440] md:pt-[46px] md:px-[80px] md:pb-[90px] md:mt-[46px] md:mx-[80px] ">
         <div className="flex flex-col gap-6 mb-[24px]">
           <h2 className=" font-medium  text-3xl md:text-[48px]">
