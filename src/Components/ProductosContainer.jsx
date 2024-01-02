@@ -60,8 +60,8 @@ const ProductosContainer = () => {
 
   return (
     <div className="bg-gray-light_gray h-auto pb-6 mb-4 font-manrope not-italic leading-none  pt-28 ">
-      <div className=" p-5 md:p-1  lg:pt-[46px]  lg:pb-[90px] ">
-        <div className="flex flex-col gap-6 mb-[24px] mx-9">
+      <div className=" p-5 md:p-1  mx-auto md:mx-5  lg:pt-[46px]  lg:pb-[90px] ">
+        <div className="flex flex-col gap-6 mb-[24px]">
           <h2 className=" font-bold text-4xl md:text-5xl md:text-[48px]">
             Nuestros productos
           </h2>

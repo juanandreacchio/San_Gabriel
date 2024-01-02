@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Accordion = ({datas}) => {
+const Accordion = ({ datas }) => {
   const [item, setItem] = useState(datas);
 
   const handleToggleActive = () => {
@@ -11,22 +11,27 @@ const Accordion = ({datas}) => {
 
   console.log(item.link);
 
-  const preguntaConLink = (respuesta, link = "") =>{
-    return link.length > 0 ?(
+  const preguntaConLink = (respuesta, link = "") => {
+    return link.length > 0 ? (
+      <div className="overflow-hidden max-h-0 duration-500 group-[.is-active]:max-h-[250px] text-sm text-black text-left ">
+        {respuesta}{" "}
+        <div className="bg-purple-header hover:bg-green-400 text-gray-100 inline-block cursor-pointer rounded-cincuenta py-2 px-4 font-semibold text-sm">
+          <Link to={link}>{link}</Link>
+        </div>
+      </div>
+    ) : (
       <div className="overflow-hidden max-h-0 duration-500 group-[.is-active]:max-h-[250px] text-sm text-black text-left">
-      {respuesta} <Link to={link}>{link}</Link>
-    </div>
-    )  : (
-      <div className="overflow-hidden max-h-0 duration-500 group-[.is-active]:max-h-[250px] text-sm text-black text-left">
-      {respuesta}
-    </div>
-    )
-  }
+        {respuesta}
+      </div>
+    );
+  };
 
   return (
     <div
       className={`bg-white-white_figma px-6 py-3 border-2 mb-5 border-gray-gray_figma rounded-2xl w-full duration-500 group font-manrope cursor-pointer  ${
-        item.active === 1 ? "is-active py-3 border-2 bg-white-white_figma border-blue-400" : "border-2"
+        item.active === 1
+          ? "is-active py-3 border-2 bg-white-white_figma border-blue-400"
+          : "border-2"
       } text-2xl `}
       onClick={handleToggleActive}
     >
@@ -36,7 +41,6 @@ const Accordion = ({datas}) => {
         </div>
         <div
           className={`text-3xl origin-center duration-500 cursor-pointer group-[.is-active]:rotate-[-90deg] rounded-full text-purple-titles ml-5 `}
-          
         >
           {item.active === 1 ? "x" : "+"}
         </div>
