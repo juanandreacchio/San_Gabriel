@@ -54,7 +54,7 @@ const OtrosProductosContainer = () => {
           <h2 className=" font-medium  text-3xl md:text-[48px]">
             Otros Productos de la Marca
           </h2>
-          <h3 className="font-bold text-3xl  shadow-linea my-6">
+          <h3 className="font-bold text-3xl my-6">
             Rollos de Cocina e Higiene Institucional
           </h3>
         </div>
@@ -69,7 +69,7 @@ const OtrosProductosContainer = () => {
             />
           ))}
         </div>
-        <h3 className="font-bold text-3xl my-6  shadow-linea">
+        <h3 className="font-bold text-3xl my-6">
           Film strech y alimenticio PVC
         </h3>
         <div className="mx-auto flex flex-col md:flex-row flex-wrap justify-center items-center w-full  border-solid m-auto   gap-5">

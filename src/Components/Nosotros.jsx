@@ -54,11 +54,11 @@ const Nosotros = () => {
             </li>
             <li className="flex items-center mb-4">
               <IconStar />
-              Productos de Calidad
+              Productos de calidad
             </li>
             <li className="flex items-center mb-4">
               <IconStar />
-              Atención Personalizada
+              Atención personalizada
             </li>
             <li className="flex items-center mb-4">
               <IconStar />

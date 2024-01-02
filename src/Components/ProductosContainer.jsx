@@ -69,9 +69,7 @@ const ProductosContainer = () => {
             Descubrí nuestra selección de bolsones de papel higiénico ideales
             para tu negocio.
           </p>
-          <h3 className="font-bold text-3xl text-gray-text shadow-linea">
-            Línea Clásica
-          </h3>
+          <h3 className="font-bold text-3xl text-gray-text">Línea Clásica</h3>
         </div>
         <div className="mx-auto flex flex-col md:flex-row flex-wrap justify-center items-center w-full  border-solid m-auto   gap-5">
           {clasicos.map((item) => (
@@ -84,9 +82,7 @@ const ProductosContainer = () => {
             />
           ))}
         </div>
-        <h3 className="font-bold text-3xl my-6  shadow-linea">
-          Línea Extrasuave
-        </h3>
+        <h3 className="font-bold text-3xl my-6">Línea Extrasuave</h3>
         <div className="mx-auto flex flex-col md:flex-row flex-wrap justify-center items-center w-full  border-solid m-auto   gap-5">
           {extrasuaves.map((item) => (
             // <p key={item.id}> {item.nombre} </p>
@@ -98,9 +94,7 @@ const ProductosContainer = () => {
             />
           ))}
         </div>
-        <h3 className="font-bold text-3xl my-6  shadow-linea">
-          Línea San Marino
-        </h3>
+        <h3 className="font-bold text-3xl my-6">Línea San Marino</h3>
         <div className="mx-auto flex flex-col md:flex-row flex-wrap justify-center items-center w-full  border-solid m-auto   gap-5">
           {sanmarinos.map((item) => (
             // <p key={item.id}> {item.nombre} </p>
@@ -112,7 +106,7 @@ const ProductosContainer = () => {
             />
           ))}
         </div>
-        <h3 className="font-bold text-3xl my-6  shadow-linea">Línea Desnudo</h3>
+        <h3 className="font-bold text-3xl my-6 ">Línea Desnudo</h3>
         <div className="mx-auto flex flex-col md:flex-row flex-wrap justify-center items-center w-full  border-solid m-auto   gap-5">
           {desnudos.map((item) => (
             // <p key={item.id}> {item.nombre} </p>
