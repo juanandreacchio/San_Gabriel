@@ -5,20 +5,22 @@ import Nosotros from "./Components/Nosotros";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Preguntas from "./Components/Preguntas";
 import Contacto from "./Components/Contacto";
+import OtrosProductosContainer from "./Components/OtrosProductosContainer";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/faqs" element={<Preguntas />} />
-        <Route path="/nosotros" element={<Nosotros />} />
-        <Route path="/productos" element={<ProductosContainer />} />
-        <Route path="/contacto" element={<Contacto />} />
-        <Route />
-      </Routes>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/faqs" element={<Preguntas />} />
+          <Route path="/nosotros" element={<Nosotros />} />
+          <Route path="/productos" element={<ProductosContainer />} />
+          <Route path="/otrosproductos" element={<OtrosProductosContainer />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route />
+        </Routes>
       </BrowserRouter>
     </>
   );

@@ -1,19 +1,30 @@
-const Producto = ({ producto }) => {
+const Producto = ({ producto, imagenBack }) => {
   const { nombre, metros, rollos, linea, imagen } = producto;
 
+  console.log("imagenBack", imagenBack);
+
   return (
-    <div className="m-2 bg-white p-2 rounded-md flex flex-col  gap-3 w-full md:w-1/4 h-[300px] overflow-hidden">
-      <figure className="h-2/3 overflow-hidden">
-        <img
-          src={imagen}
-          className="w-full h-full object-cover"
+    <div className=" bg-white-white_figma rounded-xl border-2 border-gray-gray_figma flex flex-col justify-start gap-3 w-full max-w md:w-[360px] lg:w-80 h-[480px] overflow-hidden font-manrope">
+      <figure className="h-[307px] h-[360px] overflow-hidden">
+        {/* <img
+          // src={imagen}
+          className="w-full h-full object-cover bg-prod4"
           alt={`Imagen de ${nombre}`}
-        />
+        /> */}
+        {/* <div className={`w-full h-full object-cover bg-${imagen}`}></div> */}
+        <div
+          className={`w-full h-full  ${imagenBack} bg-center bg-no-repeat `}
+        ></div>
       </figure>
-      <h2 className="bg-purple-900 text-white text-center">{nombre}</h2>
-      <p>Metros : ${metros}</p>
-      <p>Rollos : ${rollos}</p>
-      <p className="text-right text-orange-200 bg-black p-2">Línea: {linea}</p>
+      <div className="p-4 text-[32px] h-1/2 leading-none flex flex-col items-start gap-5 ">
+        <h2 className=" text-purple-titulo_card  font-bold mb-4 ">
+          {nombre}
+          <span> {metros} metros </span>
+        </h2>
+        <p className="text-gray-secondary_text text-2xl font-semibold leading-none">
+          {rollos}
+        </p>
+      </div>
     </div>
   );
 };

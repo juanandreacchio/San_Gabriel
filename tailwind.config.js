@@ -7,37 +7,74 @@ export default {
   ],
   theme: {
     extend: {
-      height:{
-        altura_pagina_md: '88vh',
-        altura_navbar_md: '12vh'
+      height: {
+        altura_pagina_md: "88vh",
+        altura_navbar_md: "12vh",
       },
       fontFamily: {
         lobster: ["Lobster", "cursive"],
-        manrope: ['Manrope']
+        manrope: ["Manrope"],
       },
       backgroundImage: {
         back1: "url('/src/assets/back1.jpg')",
         back2: "url('/src/assets/hero/pexels-chan-walrus-941861.jpg')",
         backHero1: "url('/src/assets/hero1.jpg')",
+        prod1: "url('/src/assets/products/1.jpg')",
+        prod2: "url('/src/assets/products/2.jpg')",
+        prod3: "url('/src/assets/products/3.jpg')",
+        prod4: "url('/src/assets/products/4.jpg')",
+        prod5: "url('/src/assets/products/5.jpg')",
+        prod6: "url('/src/assets/products/6.jpg')",
+        prod7: "url('/src/assets/products/7.jpg')",
+        prod8: "url('/src/assets/products/8.jpg')",
+        prod9: "url('/src/assets/products/9.jpg')",
+        prod10: "url('/src/assets/products/10.jpg')",
+        prod11: "url('/src/assets/products/11.jpg')",
+        prod12: "url('/src/assets/products/12.jpg')",
+        prod13: "url('/src/assets/products/13.jpg')",
+        prod14: "url('/src/assets/products/14.jpg')",
+        prod15: "url('/src/assets/products/15.jpg')",
+        prod16: "url('/src/assets/products/16.jpg')",
+        prod17: "url('/src/assets/products/17.jpg')",
+        prod18: "url('/src/assets/products/18.jpg')",
+        prod19: "url('/src/assets/products/19.jpg')",
+        prod20: "url('/src/assets/products/20.jpg')",
+        prod21: "url('/src/assets/products/21.jpg')",
+        prod22: "url('/src/assets/products/22.jpg')",
+        prod23: "url('/src/assets/products/23.jpg')",
+        prod24: "url('/src/assets/products/24.jpg')",
+        prod25: "url('/src/assets/products/25.jpg')",
+        prod26: "url('/src/assets/products/26.jpg')",
+        prod27: "url('/src/assets/products/27.jpg')",
+        prod28: "url('/src/assets/products/28.jpg')",
+        prod29: "url('/src/assets/products/29.jpg')",
+        prod30: "url('/src/assets/products/30.jpg')",
+        prod31: "url('/src/assets/products/31.jpg')",
       },
-      colors:{
-        purple:{
-          header: '#413079',
-          titles: '#453852',
-          text: '#453852'
+      colors: {
+        purple: {
+          header: "#413079",
+          titles: "#453852",
+          titulo_card: "#7C5F9A",
+          text: "#453852",
+          activo: "#291E4E",
         },
-        white:{
-          white_figma: '#FFF'
+        white: {
+          white_figma: "#FFF",
         },
-        gray:{
-          gray_figma: 'rgba(0, 0, 0, 0.10)',
-          light_gray: '#FBF7FF',
-          secondary_text: '#595959'
-        }
+        gray: {
+          gray_figma: "rgba(0, 0, 0, 0.10)",
+          light_gray: "#FBF7FF",
+          secondary_text: "#595959",
+          text: "#453852",
+        },
       },
-      borderRadius:{
-        cincuenta: '50px'
-      }
+      borderRadius: {
+        cincuenta: "50px",
+      },
+      dropshadow: {
+        lineas: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+      },
     },
   },
   plugins: ["flowbite/plugin"],
