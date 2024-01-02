@@ -5,7 +5,7 @@ import nosotrosImage from "../assets/nosotros.jpg";
 
 const Nosotros = () => {
   return (
-    <div className="bg-slate-200 p-4  flex flex-col  pb-[100px] md:pb-[20px] min-h-altura_pagina_md max-h-full font-manrope relative pt-28">
+    <div className="bg-slate-200 p-4  flex flex-col  pb-[100px] md:pb-[20px] min-h-altura_pagina_md max-h-full font-manrope relative pt-24">
       <div className="flex-col md:ml-14 md:my-14">
         <h2 className="text-5xl my-8 font-bold text-purple-titles">Nosotros</h2>
 
@@ -62,7 +62,7 @@ const Nosotros = () => {
             </li>
             <li className="flex items-center mb-4">
               <IconStar />
-              Estamos en la puerta de tu comercio
+              Envíos a la puerta de tu comercio
             </li>
           </ul>
         </div>

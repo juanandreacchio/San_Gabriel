@@ -48,8 +48,8 @@ const OtrosProductosContainer = () => {
   }, []);
 
   return (
-    <div className="bg-gray-light_gray pt-28">
-      <div className=" sm:wrapper p-5 md:w-[1440] md:pt-[46px] md:px-[80px] md:pb-[90px] md:mt-[46px] md:mx-[80px] ">
+    <div className="bg-gray-light_gray pt-24">
+      <div className="  p-5  md:pt-[46px]  md:pb-[90px] md:mt-[46px] md:mx-4">
         <div className="flex flex-col gap-6 mb-[24px]">
           <h2 className=" font-medium  text-3xl md:text-[48px]">
             Otros Productos de la Marca
@@ -58,7 +58,7 @@ const OtrosProductosContainer = () => {
             Rollos de Cocina e Higiene Institucional
           </h3>
         </div>
-        <div className="mx-auto flex flex-col md:flex-row flex-wrap justify-center items-center w-full  border-solid m-auto   gap-5">
+        <div className="mx-auto flex flex-col md:flex-row flex-wrap justify-evenly items-center w-full  border-solid m-auto   gap-5">
           {cocinaHigiene.map((item) => (
             // <p key={item.id}> {item.nombre} </p>
 

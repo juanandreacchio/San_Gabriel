@@ -60,8 +60,8 @@ const ProductosContainer = () => {
 
   return (
     <div className="bg-gray-light_gray h-auto pb-6 mb-4 font-manrope not-italic leading-none  pt-28 ">
-      <div className=" sm:wrapper p-5 md:w-[1440] md:pt-[46px] md:px-[80px] md:pb-[90px]  md:mx-[80px] ">
-        <div className="flex flex-col gap-6 mb-[24px]">
+      <div className=" p-5 md:p-1  lg:pt-[46px]  lg:pb-[90px] ">
+        <div className="flex flex-col gap-6 mb-[24px] mx-9">
           <h2 className=" font-bold text-4xl md:text-5xl md:text-[48px]">
             Nuestros productos
           </h2>
@@ -71,7 +71,7 @@ const ProductosContainer = () => {
           </p>
           <h3 className="font-bold text-3xl text-gray-text">Línea Clásica</h3>
         </div>
-        <div className="mx-auto flex flex-col md:flex-row flex-wrap justify-center items-center w-full  border-solid m-auto   gap-5">
+        <div className="mx-auto flex flex-col md:flex-row flex-wrap justify-evenly items-center w-full  border-solid m-auto  gap-5">
           {clasicos.map((item) => (
             // <p key={item.id}> {item.nombre} </p>
 
