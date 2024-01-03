@@ -48,7 +48,10 @@ const OtrosProductosContainer = () => {
   }, []);
 
   return (
-    <div className="bg-gray-light_gray h-auto pb-6 mb-4 font-manrope not-italic leading-none  pt-28 ">
+    <div
+      className="bg-gray-light_gray h-auto pb-6 mb-4 font-manrope not-italic leading-none  pt-28"
+      id="otrosProductos"
+    >
       <div className=" p-5 md:p-1  lg:pt-[46px]  lg:pb-[90px] mx-auto md:mx-5">
         <div className="flex flex-col gap-6 mb-[24px] ">
           <h2 className=" font-medium  text-3xl md:text-[48px]">

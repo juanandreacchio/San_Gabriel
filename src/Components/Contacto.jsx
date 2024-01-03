@@ -7,7 +7,10 @@ import mapa from "/src/assets/mapa-ubicacion.png";
 
 const Contacto = () => {
   return (
-    <div className="flex justify-center items-center h-full  max-h-full font-manrope pt-28">
+    <div
+      className="flex justify-center items-center h-full  max-h-full font-manrope pt-28"
+      id="contacto"
+    >
       <div className="md:grid md:grid-cols-4 md:grid-rows-2 flex flex-col px-16 py-8">
         <div className="md:col-span-3">
           <h3 className="text-purple-text text-2xl md:text-3xl font-semibold mb-10">
