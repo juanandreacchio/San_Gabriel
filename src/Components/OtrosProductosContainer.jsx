@@ -49,7 +49,7 @@ const OtrosProductosContainer = () => {
 
   return (
     <div
-      className="bg-gray-light_gray h-auto pb-6 mb-4 font-manrope not-italic leading-none  pt-28"
+      className="w-full bg-gray-light_gray h-auto pb-6 mb-4 font-manrope not-italic leading-none  pt-28"
       id="otrosProductos"
     >
       <div className=" p-5 md:p-1  lg:pt-[46px]  lg:pb-[90px] mx-auto md:mx-5">
