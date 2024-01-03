@@ -5,14 +5,14 @@ const Producto = ({ producto, imagenBack }) => {
 
   return (
     <div className=" bg-white-white_figma rounded-xl border-2 border-gray-gray_figma flex flex-col justify-start gap-3 w-full max-w md:w-[360px] lg:w-80 h-[480px] overflow-hidden font-manrope ">
-      <figure className="h-[307px] h-[360px]  overflow-hidden flex justify-center items-center">
+      <figure className="h-full   flex justify-center items-center p-8">
         {/* <img
           // src={imagen}          className="w-full h-full object-cover bg-prod4"
           alt={`Imagen de ${nombre}`}
         /> */}
         {/* <div className={`w-full h-full object-cover bg-${imagen}`}></div> */}
         <div
-          className={`w-5/6 h-5/6  ${imagenBack}  bg-center bg-no-repeat`}
+          className={`w-full h-full  ${imagenBack}  bg-center bg-no-repeat bg-cover`}
         ></div>
       </figure>
       <div className="p-4 text-[32px] h-1/2 leading-none flex flex-col items-start gap-5 ">

@@ -26,7 +26,7 @@ const Preguntas = () => {
 
   return (
     <div
-      className="flex flex-col w-full h-altura_pagina_md max-h-full px-6 md:px-16 pt-24"
+      className="flex flex-col w-full h-altura_pagina_md max-h-full px-6 md:px-16 pt-24 mb-14"
       id="faqs"
     >
       <h2 className="text-3xl md:text-4xl my-8 font-manrope text-purple-titles font-bold">
