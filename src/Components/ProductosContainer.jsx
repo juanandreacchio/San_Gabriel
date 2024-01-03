@@ -3,6 +3,7 @@ import Producto from "./Producto";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase/config";
 import { Link, NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "/src/App.css";
 
 const ProductosContainer = () => {
@@ -59,7 +60,10 @@ const ProductosContainer = () => {
   }, []);
 
   return (
-    <div className="bg-gray-light_gray h-auto pb-6 mb-4 font-manrope not-italic leading-none  pt-28 ">
+    <div
+      className="bg-gray-light_gray h-auto pb-6 mb-4 font-manrope not-italic leading-none  pt-28 "
+      id="productos"
+    >
       <div className=" p-5 md:p-1  mx-auto md:mx-5  lg:pt-[46px]  lg:pb-[90px] ">
         <div className="flex flex-col gap-6 mb-[24px]">
           <h2 className=" font-bold text-4xl md:text-5xl md:text-[48px]">
@@ -118,14 +122,14 @@ const ProductosContainer = () => {
             />
           ))}
         </div>
-        <Link to="/otrosproductos">
+        {/* <HashLink to="#otrosproductos">
           <button
             type="button"
             className="w-[300px] h-[100px] rounded-cincuenta bg-purple-header hover:bg-purple-activo text-white-white_figma mx-auto block py-[9px] px-[28px] text-2xl font-semibold my-[100px] self-center"
           >
             Ver Otros Productos
           </button>
-        </Link>
+        </HashLink> */}
       </div>
     </div>
   );

@@ -12,8 +12,14 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
+        <Hero />
+        <Nosotros />
+        <ProductosContainer />
+        <OtrosProductosContainer />
+        <Preguntas />
+        <Contacto />
         <Routes>
-          <Route path="/" element={<Hero />} />
+          {/* <Route path="/" element={<Hero />} /> */}
           <Route path="/faqs" element={<Preguntas />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/productos" element={<ProductosContainer />} />

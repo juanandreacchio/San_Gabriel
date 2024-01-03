@@ -5,6 +5,7 @@ const Hero = () => {
     <div
       className={`w-full h-screen bg-blue-500 flex flex-col gap-5 items-center justify-center
        bg-backHero1 text-center bg-center md:bg-top bg-no-repeat bg-cover font-manrope  pt-24`}
+      id="hero"
     >
       <div className="flex flex-col w-screen justify-center">
         <picture className="flex justify-center px-5">
