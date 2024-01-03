@@ -10,7 +10,7 @@ import OtrosProductosContainer from "./Components/OtrosProductosContainer";
 function App() {
   return (
     <>
-      <div className="bg-green-500 flex flex-col justify-between items-center h-auto w-full overflow-hidden ">
+      <div className=" flex flex-col justify-between items-center h-auto w-full overflow-hidden ">
         <BrowserRouter>
           <Header />
           <Hero />
