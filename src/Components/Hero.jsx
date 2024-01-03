@@ -12,10 +12,10 @@ const Hero = () => {
           <img
             src={namePrincipal}
             alt="imagen nombre san gabriel"
-            className="w-auto"
+            className="w-auto md:w-2/6"
           />
         </picture>
-        <p className="text-white-white_figma mt-4 md:text-5xl font-bold">
+        <p className="text-white-white_figma mt-4 md:text-4xl font-bold">
           Fábrica de papel Higiénico
         </p>
       </div>
