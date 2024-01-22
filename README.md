@@ -1,17 +1,17 @@
-# Introducción
-Landing page realizada a una fábrica de papel higiénico con otro desarrollador, cuyo diseño fue realizado por una diseñadora.
+# Introduction
+Web page developed for a toilet paper factory.
 
-# Rutas
-- [Inicio](https://san-gabriel.netlify.app/): Se puede ver el logo de la organización con un fondo.
-- [Nosotros](https://san-gabriel.netlify.app/#nosotros): Se puede ver información acerca de la empresa.
-- [Productos](https://san-gabriel.netlify.app/#productos): Se cargan los productos obtenidos desde la base de datos de Firebase.
-- [Preguntas Frecuentes](https://san-gabriel.netlify.app/#faqs): Se pueden ver cuatro preguntas que al tocarse se abre su caja, como un acordeón, con su respuesta.
-- [Contacto](https://san-gabriel.netlify.app/#contacto): Se pueden ver todos los datos de contacto de la empresa.
+# Routes
+- [Home](https://san-gabriel.netlify.app/): The organization's logo can be seen with a background.
+- [About us](https://san-gabriel.netlify.app/#nosotros): Information about the company can be viewed.
+- [Products](https://san-gabriel.netlify.app/#productos): The products obtained from the Firebase database are loaded.
+- [FAQs](https://san-gabriel.netlify.app/#faqs): There are four questions that, when touched, open their box, like an accordion, with their respective answers.
+- [Contact](https://san-gabriel.netlify.app/#contacto): All contact details of the company can be viewed.
 
-# Funcionalidades
-- Importar un listado de productos desde una base de datos en Firebase
+# Features
+- Import a list of products from a Firebase database.
 
-# Ejecutar localmente
+# Running Locally
 ```sh
 git clone https://github.com/juanandreacchio/San_Gabriel
 cd San_Gabriel
@@ -20,10 +20,15 @@ npm run dev
 o
 ```
 
-# Desarrollado utilizando
+# Built Using
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Font Awesome](https://fontawesome.com/)
 
-# Testear la app
+# Test app
 [Testear](https://san-gabriel.netlify.app/)
+
+# Credits
+I couldn't have made this page without:
+[Leo (Developer)](https://github.com/leoTechnologyDeveloper)
+[Andrea (UX UI Designer)](https://www.linkedin.com/in/andrefcorrea/)
