@@ -13,7 +13,7 @@ Landing page realizada a una fábrica de papel higiénico con otro desarrollador
 
 # Ejecutar localmente
 ```sh
-git clone [https://github.com/juanandreacchio/San_Gabriel]
+git clone https://github.com/juanandreacchio/San_Gabriel
 cd San_Gabriel
 npm install
 npm run dev
