@@ -26,7 +26,7 @@ o
 - [Font Awesome](https://fontawesome.com/)
 
 # Test app
-[Testear](https://san-gabriel.netlify.app/)
+[Test](https://san-gabriel.netlify.app/)
 
 # Credits
 I couldn't have made this page without:
