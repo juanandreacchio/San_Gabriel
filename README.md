@@ -20,6 +20,9 @@ npm run dev
 o
 ```
 
+# Enviroment Variables
+Watch [.env.example](https://github.com/juanandreacchio/San_Gabriel/blob/master/.env.example) for an example.
+
 # Built Using
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
