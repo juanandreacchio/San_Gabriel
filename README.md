@@ -30,5 +30,5 @@ o
 
 # Credits
 I couldn't have made this page without:
-[Leo (Developer)](https://github.com/leoTechnologyDeveloper)
-[Andrea (UX UI Designer)](https://www.linkedin.com/in/andrefcorrea/)
+- [Leo (Developer)](https://github.com/leoTechnologyDeveloper)
+- [Andrea (UX UI Designer)](https://www.linkedin.com/in/andrefcorrea/)
