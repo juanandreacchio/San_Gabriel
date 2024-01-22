@@ -1,13 +1,29 @@
-# Demo
+# Introducción
+Landing page realizada a una fábrica de papel higiénico con otro desarrollador, cuyo diseño fue realizado por una diseñadora.
 
-https://san-gabriel.netlify.app/
+# Rutas
+- [Inicio](https://san-gabriel.netlify.app/): Se puede ver el logo de la organización con un fondo.
+- [Nosotros](https://san-gabriel.netlify.app/#nosotros): Se puede ver información acerca de la empresa.
+- [Productos](https://san-gabriel.netlify.app/#productos): Se cargan los productos obtenidos desde la base de datos de Firebase.
+- [Preguntas Frecuentes](https://san-gabriel.netlify.app/#faqs): Se pueden ver cuatro preguntas que al tocarse se abre su caja, como un acordeón, con su respuesta.
+- [Contacto](https://san-gabriel.netlify.app/#contacto): Se pueden ver todos los datos de contacto de la empresa.
 
+# Funcionalidades
+- Importar un listado de productos desde una base de datos en Firebase
 
-# React + Vite
+# Ejecutar localmente
+```sh
+git clone [https://github.com/juanandreacchio/San_Gabriel]
+cd San_Gabriel
+npm install
+npm run dev
+o
+```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Desarrollado utilizando
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Font Awesome](https://fontawesome.com/)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Testear la app
+[Testear](https://san-gabriel.netlify.app/)
